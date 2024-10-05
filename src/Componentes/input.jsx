@@ -3,7 +3,7 @@ import { useState } from "react"
 
 export default function Input(){
     const[mensaje,setMensaje]= useState("");
-    const [palindromo,setPalindromo]=useState(false);
+    const [palindromo,setPalindromo]=useState("");
 
     const capicua=()=>{
 
