@@ -15,7 +15,7 @@ export default function Input(){
         }else{
            
             //se limpia la palabra en caso de tener espacios y caracteres especiales
-        const limpiarPalabra=mensaje.replace(/\s_/g, "").toLowerCase();
+        const limpiarPalabra=mensaje.replace(/\s+/g, '').toLowerCase();
         
         //pone la palabra alreves 
         const revesPalabra=limpiarPalabra.split("").reverse().join("");
